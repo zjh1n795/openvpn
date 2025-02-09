@@ -21,8 +21,8 @@ services:
 * Initialize the configuration files and certificates
 
 ```bash
-docker-compose run --rm openvpn ovpn_genconfig -u udp://VPN.SERVERNAME.COM
-docker-compose run --rm openvpn ovpn_initpki
+docker-compose run --rm openvpn ovpn_genconfig -u udp://VPN.SERVERNAME.COM -i
+docker-compose run --rm openvpn ovpn_initpki -i
 ```
 
 * Fix ownership (depending on how to handle your backups, this may not be needed)
