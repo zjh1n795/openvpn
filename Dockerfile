@@ -1,7 +1,7 @@
 # Original credit: https://github.com/jpetazzo/dockvpn
 
 # Smallest base image
-FROM registry.cn-hangzhou.aliyuncs.com/library/alpine:3.12
+FROM docker.m.daocloud.io/library/alpine:3.12
 
 LABEL maintainer="Kyle Manna <kyle@kylemanna.com>"
 
